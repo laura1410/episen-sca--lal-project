@@ -1,0 +1,5 @@
+.DS_Store
+episen-sca-lal-front/node_modules
+episen-sca-lal-front/dist
+episen-sca-lal-back/.idea
+episen-sca-lal-front/.idea

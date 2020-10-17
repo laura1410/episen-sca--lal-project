@@ -1,0 +1,14 @@
+version: '3.0'
+
+services:
+  episen-sca-lal-front:
+    image: lalves1410/episen-sca-lal-front
+    ports:
+      - "80:80"
+
+  episen-sca-lal-back:
+    image: lalves1410/episen-sca-lal-back
+    volumes:
+        - './backend-data/orders.txt:/app/data/orders.txt'
+    ports:
+      - "8080:8080"
